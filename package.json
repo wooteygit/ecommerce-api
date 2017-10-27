@@ -1,0 +1,44 @@
+{
+    "name": "ecommerce-api",
+    "description": "E-Commerce RESTful Service",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Senate Team",
+    "scripts": {
+        "dev": "SET NODE_ENV=development && nodemon ./bin/index.js",
+        "debug": "SET NODE_ENV=development && node-debug ./bin/index.js",
+        "grunt": "grunt",
+        "start": "node ./bin/index.js"
+    },
+    "dependencies": {
+        "@types/mongodb": "^2.2.6",
+        "@types/request": "0.0.44",
+        "@types/request-promise": "^4.1.35",
+        "body-parser": "^1.17.2",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.3",
+        "errorhandler": "^1.5.0",
+        "express": "^4.15.3",
+        "method-override": "^2.3.9",
+        "mongodb": "^2.2.29",
+        "morgan": "^1.8.2",
+        "oauth2orize": "^1.8.0",
+        "passport": "^0.3.2",
+        "passport-http": "^0.3.0",
+        "passport-http-bearer": "^1.0.1",
+        "passport-oauth2-client-password": "^0.1.2",
+        "request": "^2.81.0",
+        "request-promise": "^4.2.1",
+        "uuid": "^3.1.0"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.16.3",
+        "@types/cookie-parser": "^1.3.30",
+        "@types/errorhandler": "0.0.30",
+        "@types/method-override": "0.0.29",
+        "@types/morgan": "^1.7.32",
+        "grunt": "^1.0.1",
+        "grunt-ts": "^6.0.0-beta.16",
+        "typescript": "^2.3.4"
+    }
+}
